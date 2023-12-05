@@ -1,0 +1,153 @@
+{
+  "CauTrucCTDT": [
+    {
+      "idctctdt": 1,
+      "idKhoiKT": 1,
+      "maDMCTDT": 1
+    },
+    {
+      "idctctdt": 2,
+      "idKhoiKT": 2,
+      "maDMCTDT": 2
+    }  
+
+  ],
+  "ChiTietCTDT": [
+    {
+      "idctdt": 1,
+      "idHocPhan": 1,
+      "idctctdt": 1
+    },
+    {
+      "idctdt": 2,
+      "idHocPhan": 2,
+      "idctctdt": 1
+    }
+
+  ],
+  "DanhMucCTDT": [
+    {
+      "maDMCTDT": 1,
+      "tenDMCTDT": "Chuyên Ngành Chính",
+      "idNganh": 1,
+      "idKhoaHoc": 1
+    },
+    {
+      "maDMCTDT": 2,
+      "tenDMCTDT": "Chuyên Ngành Chính",
+      "idNganh": 2,
+      "idKhoaHoc": 2
+    }
+
+  ],
+  "HocPhan": [
+    {
+      "idHocPhan": 1,
+      "maHocPhan": "CNPM",
+      "tenHocPhan": "Công Nghệ Phần Mềm",
+      "soTinChi": "3",
+      "idKhoa": 1
+    },
+    {
+      "idHocPhan": 2,
+      "maHocPhan": "THVP",
+      "tenHocPhan": "Tin Học Văn Phòng",
+      "soTinChi": "2",
+      "idKhoa": 1
+    },
+    {
+      "idHocPhan": 1,
+      "maHocPhan": "THVP",
+      "tenHocPhan": "Tin Học Văn Phòng",
+      "soTinChi": "2",
+      "idKhoa": 3
+    }
+
+  ],
+  "Khoa": [
+    {
+      "idKhoa": 1,
+      "maKhoa": "CNTT",
+      "tenKhoa": "Công Nghệ Thông Tin",
+      "moTaKhoa": "Khoa Công Nghệ Thông Tin"
+    },
+    {
+      "idKhoa": 2,
+      "maKhoa": "QTKD",
+      "tenKhoa": "Quản Trị Kinh Doanh",
+      "moTaKhoa": "Khoa Quản Trị Kinh Doanh"
+    },
+    {
+      "idKhoa": 3,
+      "maKhoa": "NNA",
+      "tenKhoa": "Ngôn Ngữ Anh",
+      "moTaKhoa": "Khoa Ngôn Ngữ Anh"
+    }
+
+  ],
+  "KhoaHoc": [
+    {
+      "idKhoaHoc": 1,
+      "maKhoaHoc": "K13",
+      "tenKhoaHoc": "Khoá 13",
+      "namBatDau": "2019"
+    },
+    {
+      "idKhoaHoc": 2,
+      "maKhoaHoc": "K14",
+      "tenKhoaHoc": "Khoá 14",
+      "namBatDau": "2020"
+    },
+    {
+      "idKhoaHoc": 3,
+      "maKhoaHoc": "K15",
+      "tenKhoaHoc": "Khoá 15",
+      "namBatDau": "2021"
+    },
+    {
+      "idKhoaHoc": 4,
+      "maKhoaHoc": "K16",
+      "tenKhoaHoc": "Khoá 16",
+      "namBatDau": "2022"
+    },
+    {
+      "idKhoaHoc": 5,
+      "maKhoaHoc": "K17",
+      "tenKhoaHoc": "Khoá 17",
+      "namBatDau": "2023"
+    }
+
+  ],
+  "KhoiKienThuc": [
+    {
+      "idKhoiKT": 1,
+      "maKhoiKT": "CSN",
+      "tenKhoiKT": "Cơ Sở Ngành",
+      "moTa": "Cơ Sở Ngành"
+    },
+    {
+      "idKhoiKT": 2,
+      "maKhoiKT": "CN",
+      "tenKhoiKT": "Chuyên Ngành",
+      "moTa": "Chuyên Ngành"
+    }
+
+  ],
+  "NganhHoc": [
+    {
+      "idNganh": 1,
+      "maNganh": "CNTT",
+      "tenNganh": "Công Nghệ Thông Tin",
+      "moTaNganh": "Thuộc khoa CNTT",
+      "idKhoa": 1
+    },
+    {
+      "idNganh": 2,
+      "maNganh": "TKĐH",
+      "tenNganh": "Thiết Kế Đồ Hoạ",
+      "moTaNganh": "Thuộc khoa CNTT",
+      "idKhoa": 1
+    }
+
+  ]
+}
